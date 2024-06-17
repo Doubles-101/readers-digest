@@ -1,0 +1,93 @@
+[
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 1,
+      "fields": {
+        "category": 1,
+        "book": 1,
+        "date": "2024-01-01"
+      }
+    },
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 2,
+      "fields": {
+        "category": 2,
+        "book": 1,
+        "date": "2024-01-02"
+      }
+    },
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 3,
+      "fields": {
+        "category": 3,
+        "book": 2,
+        "date": "2024-01-03"
+      }
+    },
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 4,
+      "fields": {
+        "category": 4,
+        "book": 2,
+        "date": "2024-01-04"
+      }
+    },
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 5,
+      "fields": {
+        "category": 5,
+        "book": 3,
+        "date": "2024-01-05"
+      }
+    },
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 6,
+      "fields": {
+        "category": 1,
+        "book": 3,
+        "date": "2024-01-06"
+      }
+    },
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 7,
+      "fields": {
+        "category": 2,
+        "book": 4,
+        "date": "2024-01-07"
+      }
+    },
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 8,
+      "fields": {
+        "category": 3,
+        "book": 4,
+        "date": "2024-01-08"
+      }
+    },
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 9,
+      "fields": {
+        "category": 4,
+        "book": 5,
+        "date": "2024-01-09"
+      }
+    },
+    {
+      "model": "digestapi.bookcategory",
+      "pk": 10,
+      "fields": {
+        "category": 5,
+        "book": 5,
+        "date": "2024-01-10"
+      }
+    }
+  ]
+  

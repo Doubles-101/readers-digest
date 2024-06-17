@@ -16,6 +16,7 @@ class BookSerializer(serializers.ModelSerializer):
     class Meta:
         model = Book
         fields = ['id', 'title', 'author', 'isbn_number', 'cover_image', 'is_owner', 'categories']
+        
 
 
 class BookViewSet(viewsets.ViewSet):
@@ -65,7 +66,7 @@ class BookViewSet(viewsets.ViewSet):
             # Is the authenticated user allowed to edit this book?
             self.check_object_permissions(request, book)
 
-            serializer = BookSerializer(data=request.data)
+            serializer = BookSerializer(data=request.data, partial=True)
             if serializer.is_valid():
                 book.title = serializer.validated_data['title']
                 book.author = serializer.validated_data['author']
@@ -73,7 +74,7 @@ class BookViewSet(viewsets.ViewSet):
                 book.cover_image = serializer.validated_data['cover_image']
                 book.save()
 
-                category_ids = request.data.get('categories', [])
+                category_ids = request.data.id.get('categories', [])
                 book.categories.set(category_ids)
 
                 serializer = BookSerializer(book, context={'request': request})
