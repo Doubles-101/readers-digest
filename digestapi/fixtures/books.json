@@ -1,0 +1,79 @@
+[
+    {
+        "model": "digestapi.book",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "isbn_number": "9780743273565",
+            "cover_image": "https://example.com/covers/thegreatgatsby.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "isbn_number": "9780060935467",
+            "cover_image": "https://example.com/covers/tokillamockingbird.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "title": "1984",
+            "author": "George Orwell",
+            "isbn_number": "9780451524935",
+            "cover_image": "https://example.com/covers/1984.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 4,
+        "fields": {
+            "user": 2,
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "isbn_number": "9780141439518",
+            "cover_image": "https://example.com/covers/prideandprejudice.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 5,
+        "fields": {
+            "user": 3,
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "isbn_number": "9780316769488",
+            "cover_image": "https://example.com/covers/thecatcherintherye.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 6,
+        "fields": {
+            "user": 3,
+            "title": "Moby Dick",
+            "author": "Herman Melville",
+            "isbn_number": "9781503280786",
+            "cover_image": "https://example.com/covers/mobydick.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 7,
+        "fields": {
+            "user": 4,
+            "title": "War and Peace",
+            "author": "Leo Tolstoy",
+            "isbn_number": "9780199232765",
+            "cover_image": "https://example.com/covers/warandpeace.jpg"
+        }
+    }
+]
