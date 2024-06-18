@@ -1,0 +1,69 @@
+[
+    {
+      "model": "digestapi.bookreview",
+      "pk": 1,
+      "fields": {
+        "user": 1,
+        "book": 1,
+        "rating": 5,
+        "comment": "Excellent book!",
+        "date": "2024-06-18"
+      }
+    },
+    {
+      "model": "digestapi.bookreview",
+      "pk": 2,
+      "fields": {
+        "user": 2,
+        "book": 2,
+        "rating": 4,
+        "comment": "Good, but could be better.",
+        "date": "2024-06-19"
+      }
+    },
+    {
+      "model": "digestapi.bookreview",
+      "pk": 3,
+      "fields": {
+        "user": 3,
+        "book": 3,
+        "rating": 3,
+        "comment": "Average.",
+        "date": "2024-06-20"
+      }
+    },
+    {
+        "model": "digestapi.bookreview",
+        "pk": 4,
+        "fields": {
+          "user": 1,
+          "book": 1,
+          "rating": 5,
+          "comment": "Excellent book!",
+          "date": "2024-06-18"
+        }
+      },
+      {
+        "model": "digestapi.bookreview",
+        "pk": 5,
+        "fields": {
+          "user": 2,
+          "book": 2,
+          "rating": 4,
+          "comment": "Good, but could be better.",
+          "date": "2024-06-19"
+        }
+      },
+      {
+        "model": "digestapi.bookreview",
+        "pk": 6,
+        "fields": {
+          "user": 3,
+          "book": 3,
+          "rating": 3,
+          "comment": "Average.",
+          "date": "2024-06-20"
+        }
+      }
+  ]
+  
